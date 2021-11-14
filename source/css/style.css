@@ -685,6 +685,16 @@ section {
     margin-top: -1px;
 }
 
+.menu-text {
+    font-size: 18px;
+    padding-top: 4px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    color: #202020;
+}
+
 .menu_bars2 span:nth-child(1) {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -1868,7 +1878,7 @@ section {
 }
 
 .blog-area {
-    padding-top: 80px;
+    padding-top: 0px;
     padding-bottom: 160px;
 }
 
@@ -2010,7 +2020,7 @@ section {
     font-size: 28px;
     margin-right: 20px;
     margin-bottom: 8px;
-    color: #fb5919;
+    color: #F40612;
 }
 
 
