@@ -1383,6 +1383,8 @@ section {
     width: 100%;
     height: 216px;
     overflow: hidden;
+    padding-top: 0px;
+    margin-top: 23px;
 }
 
 .mini-slider .carousel .animation1 {
