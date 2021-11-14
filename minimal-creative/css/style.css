@@ -421,7 +421,7 @@ section {
 .btn.btn-medium {
     font-size: 16px;
     padding: 10px 42px;
-    line-height: 2em
+    line-height: 35px;
 }
 
 .btn.btn-large {
@@ -1172,7 +1172,7 @@ section {
 
 .arrow-box {
     position: absolute;
-    background-color: #0077FF;
+    background-color: #282828;
     font-size: 30px;
     padding: 10px 11px;
     right: 0;
@@ -1211,7 +1211,7 @@ section {
 
 .arrow-box1 {
     position: absolute;
-    background-color: #0077FF;
+    background-color: #282828;
     font-size: 30px;
     padding: 10px 11px;
     right: 0;
