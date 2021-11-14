@@ -63,7 +63,8 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #fb5919;
+    background: #F40612;
+    border-radius: 5px;
     width: 0;
     height: 25%;
     transition: .5s ease;
@@ -1564,11 +1565,15 @@ section {
 }
 
 .about-sec .our-about-sec .about-card:hover .about-card-heading {
-    color: #fb4700;
+    color: #0077FF;
 }
 
 .about-sec .our-about-sec .about-card:hover .image-holder {
     animation: .8s zoomIn;
+}
+
+.about-card:hover .image-holder i {
+    color: red;
 }
 
 
