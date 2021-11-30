@@ -328,6 +328,34 @@ section {
     font-weight: 700;
 }
 
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1520px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main-screen {
+    background: url(../images/bgmain.png);
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.nav ul li {
+    margin-right: 25px;
+    font-size: 20px;
+    color: white;
+}
+
 
 /* button */
 
@@ -462,7 +490,8 @@ section {
 }
 
 .bg-orange {
-    background: #0077FF;
+    background: #F40612;
+    ;
 }
 
 .bg-black {
@@ -589,8 +618,8 @@ section {
     padding-top: 20px;
     padding-bottom: 0;
     position: absolute;
-    left: 0;
-    right: 0;
+    left: 10px;
+    right: 10px;
     top: 0;
     z-index: 11;
 }
@@ -600,10 +629,27 @@ section {
     vertical-align: sub;
 }
 
+.header-v2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1800px;
+}
+
 
 /* ===================================
     Header & Navigation
 ====================================== */
+
+.menu-lines {
+    display: block;
+    width: 30px;
+}
+
+.menu-bar {
+    display: flex;
+}
 
 .menu_bars,
 .menu_bars2 {
@@ -1109,15 +1155,21 @@ section {
     Banner Section
 ====================================== */
 
-.banner:before {
+.banner {
+    background: url(../images/bgmail.png);
+    background-repeat: no-repeat;
+}
+
+
+/* .banner:before {
     content: url(../images/banner-particles.png);
     position: absolute;
     right: -420px;
     top: 250px;
     animation: scale .8s alternate infinite linear both;
-}
+} */
 
-.main-heading {
+.main-heading-title {
     font-size: 60px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -1125,6 +1177,31 @@ section {
     text-align: left;
     letter-spacing: -3px;
     color: #202020;
+}
+
+.main-heading {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    text-align: left;
+    letter-spacing: -3px;
+    color: #202020;
+}
+
+.banner-end-text {
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: -3px;
+    color: #202020;
+    margin-bottom: 20px;
+}
+
+.col-height {
+    height: 86vh !important;
 }
 
 .margin-sub-heading {
@@ -1157,6 +1234,31 @@ section {
 
 .box-adjust {
     margin-bottom: 215px;
+}
+
+.main-image {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-banner-text span {
+    font-size: 32px;
+    font-weight: 500;
+    color: #202020;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    text-align: left;
+    letter-spacing: -3px;
 }
 
 
