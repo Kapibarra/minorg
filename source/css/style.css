@@ -347,6 +347,12 @@ section {
     margin-top: 15px;
 }
 
+.header-subtitle h2 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 24px;
+}
+
 .nav-btn {
     background: #F40612;
     border-color: #F40612;
@@ -373,7 +379,7 @@ section {
     margin-right: 25px;
     padding-top: 20px;
     font-size: 20px;
-    color: white;
+    color: black;
 }
 
 .main-title {
