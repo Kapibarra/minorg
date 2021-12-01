@@ -328,6 +328,11 @@ section {
     font-weight: 700;
 }
 
+.header-main-wrapper {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
 .header-wrapper {
     display: flex;
     flex-direction: row;
@@ -387,15 +392,16 @@ section {
 
 .nav ul li a {
     display: flex;
+    color: #000;
     box-sizing: border-box;
 }
 
-.nav ul li a:hover {
+.nav ul li:hover {
     color: #000;
     border-bottom: 1px solid #000;
 }
 
-.nav ul li a:last-child:hover {
+.nav ul li:last-child:hover {
     border-bottom: none;
 }
 
