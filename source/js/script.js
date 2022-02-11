@@ -21,11 +21,11 @@ jQuery(function ($) {
 
     $(window).on('scroll', function () {
 
-        if ($(this).scrollTop() > 260) { // Set position from top to add class
+        if ($(this).scrollTop() > 0) { // Set position from top to add class
             $('.fixed-nav-on-scroll').removeClass('d-none');
         }
         else {
-            $('.fixed-nav-on-scroll').addClass('d-none');
+            $('.fixed-nav-on-scroll').removeClass('d-none');
         }
     });
 
