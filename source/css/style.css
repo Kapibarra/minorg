@@ -2815,7 +2815,7 @@ section {
         line-height: 1.4;
     }
     .fixed-nav-on-scroll {
-        height: 80px;
+        height: 90px;
         width: 80px;
     }
     .fixed-nav-on-scroll .fixed-icon-scroll {
@@ -3148,5 +3148,22 @@ section {
 @media screen and (max-width: 410px) {
     .nav.expanded {
         right: -64px;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .header-main-wrapper {
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    .header-subtitle h2 {
+        text-align: center;
+    }
+    .main-title h1 {
+        text-align: center;
+        text-shadow: -1px -1px 2px #fff;
+    }
+    .main-btn-wrapper {
+        justify-content: center;
     }
 }
