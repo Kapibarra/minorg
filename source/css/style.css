@@ -590,7 +590,8 @@ section {
 }
 
 .bg-gray {
-    background: #fbfbfb;
+    background: url(../images/bgmain.png);
+    background-repeat: no-repeat;
 }
 
 .bg-transparent {
@@ -1730,6 +1731,9 @@ section {
     padding-top: 30px;
     padding-bottom: 30px;
     transition: .8s ease;
+    box-sizing: border-box;
+    padding: 30px;
+    min-height: 400px;
 }
 
 .about-sec .our-about-sec .about-card .image-holder {
