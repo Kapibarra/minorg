@@ -1771,6 +1771,7 @@ section {
     border-radius: 20px;
     box-shadow: 0 0 15px #e1e1e1;
     cursor: pointer;
+    background-color: #ffffff;
 }
 
 .about-sec .our-about-sec .about-card:hover .about-card-heading {
