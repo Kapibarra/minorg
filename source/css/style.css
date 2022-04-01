@@ -1791,6 +1791,11 @@ section {
     Portfolio Section
 ====================================== */
 
+.portfolio-bg {
+    background: url(../images/bgmain.png);
+    height: 100vh;
+}
+
 .parallax-box {
     text-align: center;
 }
