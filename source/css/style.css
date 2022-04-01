@@ -1733,7 +1733,10 @@ section {
     transition: .8s ease;
     box-sizing: border-box;
     padding: 30px;
-    min-height: 400px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .about-sec .our-about-sec .about-card .image-holder {
