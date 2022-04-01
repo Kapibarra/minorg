@@ -1758,6 +1758,12 @@ section {
     transition: .8s ease;
 }
 
+.about-card-heading {
+    font-weight: 900;
+    font-size: 26px;
+    min-height: 155px;
+}
+
 .about-sec .our-about-sec .about-card .about-card-detail {
     font-family: Roboto, sans-serif;
     font-weight: lighter;
@@ -1847,6 +1853,7 @@ section {
 .single-work .overlay-text {
     width: 100%;
     height: 100%;
+    max-height: 258px;
     font-size: 26px;
     color: #fff;
     background-color: transparent;
@@ -1864,6 +1871,7 @@ section {
     padding: 0 15px;
     width: 100%;
     height: 100%;
+    max-height: 258px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1932,12 +1940,11 @@ section {
 .event-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 100%;
     min-height: 750px;
     border-radius: 20px;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 12px;
     box-shadow: 0 0 15px #e1e1e1;
     cursor: pointer;
     background-color: #ffffff;
@@ -1953,7 +1960,7 @@ section {
 }
 
 .events-ul {
-    text-align: justify;
+    min-height: 225px;
 }
 
 .item:hover .overlay-text {
@@ -1974,6 +1981,7 @@ section {
 .item .img-responsive {
     max-width: 100%;
     transition: all .5s ease 0.2s;
+    max-height: 258px;
 }
 
 .item:hover .img-responsive {
