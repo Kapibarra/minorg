@@ -1963,6 +1963,10 @@ section {
     min-height: 225px;
 }
 
+.interface-ul {
+    list-style: circle;
+}
+
 .item:hover .overlay-text {
     opacity: 1;
 }
