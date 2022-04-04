@@ -1733,7 +1733,7 @@ section {
     transition: .8s ease;
     box-sizing: border-box;
     padding: 30px;
-    min-height: 450px;
+    min-height: 476px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1774,6 +1774,12 @@ section {
 .about-sec .our-about-sec a {
     text-decoration: none;
     color: #202020;
+}
+
+.about-card {
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px #e1e1e1;
 }
 
 .about-sec .our-about-sec .about-card:hover {
@@ -1836,6 +1842,7 @@ section {
 .single-work img {
     width: 100%;
     height: auto;
+    min-height: 258px;
 }
 
 .single-work .title {
@@ -1963,8 +1970,26 @@ section {
     min-height: 225px;
 }
 
+.interface-img {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.interface-img img {
+    padding: 20px;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
 .interface-ul {
-    list-style: circle;
+    list-style: disc !important;
+}
+
+.interface-ul li {
+    list-style: disc !important;
 }
 
 .item:hover .overlay-text {
