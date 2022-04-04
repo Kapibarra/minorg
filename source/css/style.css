@@ -1737,6 +1737,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .about-sec .our-about-sec .about-card .image-holder {
@@ -1955,10 +1956,12 @@ section {
     box-shadow: 0 0 15px #e1e1e1;
     cursor: pointer;
     background-color: #ffffff;
-    max-width: 22% !important;
+    margin-bottom: 10px;
+    max-width: 22%;
 }
 
 .events-container {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1968,6 +1971,11 @@ section {
 
 .events-ul {
     min-height: 225px;
+}
+
+.small-card {
+    min-height: 350px !important;
+    max-height: 350px !important;
 }
 
 .interface-img {
@@ -2720,7 +2728,11 @@ section {
    Media & Queries
 ====================================== */
 
-@media (min-width: 1800px) {}
+@media (max-width: 1400px) {
+    .event-card {
+        max-width: 100% !important;
+    }
+}
 
 @media (max-width: 1280px) and (min-width: 992px) {
     .revicon {
@@ -2731,6 +2743,9 @@ section {
     }
     .blog-box .box-text {
         font-size: 22px;
+    }
+    .event-card {
+        max-width: 100% !important;
     }
 }
 
@@ -2869,7 +2884,7 @@ section {
     section,
     .section-padding,
     .pricing-padding {
-        padding: 4.5rem 0;
+        padding: 1.5rem 0;
     }
     /* Side Menu */
     .side-menu.center .side-nav .navbar-nav .nav-link {
