@@ -1765,7 +1765,7 @@ section {
 .about-card-heading {
     font-weight: 900;
     font-size: 26px;
-    min-height: 80px;
+    min-height: 30px;
 }
 
 .about-sec .our-about-sec .about-card .about-card-detail {
@@ -1977,8 +1977,8 @@ section {
 }
 
 .small-card {
-    min-height: 350px !important;
-    max-height: 350px !important;
+    min-height: 300px !important;
+    max-height: 300px !important;
 }
 
 .interface-img {
@@ -2265,7 +2265,8 @@ section {
 
 .contact-sec .contact-details .text {
     color: #202020;
-    opacity: .8;
+    opacity: 1;
+    font-weight: 400;
 }
 
 .contact-sec .contact-details ul {
@@ -2276,16 +2277,17 @@ section {
 
 .contact-sec .contact-details ul li {
     color: #202020;
-    opacity: .8;
+    opacity: 1;
     list-style: none;
     margin-bottom: 22px;
     font-size: 16px;
     display: flex;
     align-items: center;
+    font-weight: 400;
 }
 
 .contact-sec .contact-details ul li:first-child {
-    width: 60%;
+    width: 90%;
 }
 
 .contact-sec .contact-details ul li span {
