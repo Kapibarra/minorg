@@ -1726,7 +1726,6 @@ section {
 }
 
 .about-sec .our-about-sec {
-    padding-top: 70px;
     overflow: hidden;
     padding-bottom: 10px;
 }
@@ -1984,13 +1983,11 @@ section {
 
 .interface-img {
     width: 100%;
-    max-width: 1120px;
+    max-width: 880px;
     margin: 0 auto;
-    padding: 20px;
 }
 
 .interface-img img {
-    padding: 20px;
     width: 100%;
     max-width: 1120px;
     margin: 0 auto;
