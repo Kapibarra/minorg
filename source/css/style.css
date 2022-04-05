@@ -350,6 +350,7 @@ section {
     max-width: 1420px;
     margin: 0 auto;
     margin-top: 15px;
+    margin-left: 15px;
 }
 
 .header-subtitle h2 {
@@ -369,8 +370,11 @@ section {
 }
 
 .logo {
+    display: flex;
+    flex-direction: row;
     margin-top: 20px;
-    width: 100px;
+    width: fit-content;
+    align-items: center;
 }
 
 .navigation ul {
