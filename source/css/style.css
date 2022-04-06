@@ -1993,13 +1993,13 @@ section {
 
 .interface-img {
     width: 100%;
-    max-width: 880px;
+    max-width: 580px;
     margin: 0 auto;
 }
 
 .interface-img img {
     width: 100%;
-    max-width: 1120px;
+    max-width: 580px;
     margin: 0 auto;
 }
 
