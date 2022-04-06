@@ -595,7 +595,7 @@ section {
 
 .bg-gray {
     background: url(../images/bgmain.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
 .bg-transparent {
@@ -1974,6 +1974,9 @@ section {
 
 .events-ul {
     min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .small-card {
