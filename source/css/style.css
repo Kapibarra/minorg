@@ -1690,6 +1690,7 @@ section {
     width: 95%;
     margin-bottom: 50px;
     text-transform: capitalize;
+    text-shadow: 3px 1px 3px #FFFFFF;
 }
 
 .text {
@@ -3271,4 +3272,8 @@ section {
     .main-btn-wrapper {
         justify-content: center;
     }
+}
+
+.uppercase {
+    text-transform: uppercase !important;
 }
